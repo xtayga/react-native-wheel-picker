@@ -3,7 +3,6 @@
 import React from "react";
 import {
   View,
-  ColorPropType,
   requireNativeComponent,
   StyleSheet
 } from "react-native";
@@ -15,7 +14,7 @@ class WheelCurvedPicker extends React.Component {
 
     data: PropTypes.array,
 
-    textColor: ColorPropType,
+    textColor: PropTypes.string,
 
     textSize: PropTypes.number,
 

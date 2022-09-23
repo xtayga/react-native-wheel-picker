@@ -2,13 +2,8 @@
  * 日期/时间选择组件
  */
 
-import React, {FC, PureComponent} from "react";
+import React, {PureComponent} from "react";
 import {
-    ColorPropType,
-    StyleProp,
-    View,
-    ViewPropTypes,
-    ViewStyle,
     Dimensions,
     Text
 } from "react-native";
